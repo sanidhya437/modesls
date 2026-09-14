@@ -1,0 +1,166 @@
+{
+  "Item Not Received": {
+    "required": [
+      {
+        "name": "Tracking Information",
+        "weight": 30
+      },
+      {
+        "name": "Delivery Status",
+        "weight": 30
+      },
+      {
+        "name": "Fulfillment Record",
+        "weight": 20
+      },
+      {
+        "name": "Shipping Address",
+        "weight": 10
+      },
+      {
+        "name": "Order Record",
+        "weight": 10
+      }
+    ]
+  },
+  "Unauthorized Transaction": {
+    "required": [
+      {
+        "name": "Payment Transaction",
+        "weight": 25
+      },
+      {
+        "name": "Payment Gateway",
+        "weight": 15
+      },
+      {
+        "name": "Fraud/Risk Assessment",
+        "weight": 25
+      },
+      {
+        "name": "Billing Address",
+        "weight": 15
+      },
+      {
+        "name": "Order Customer",
+        "weight": 20
+      }
+    ]
+  },
+  "Product Not As Described": {
+    "required": [
+      {
+        "name": "Product Details",
+        "weight": 30
+      },
+      {
+        "name": "Order Line Items",
+        "weight": 25
+      },
+      {
+        "name": "Customer Order",
+        "weight": 15
+      },
+      {
+        "name": "Return Information",
+        "weight": 15
+      },
+      {
+        "name": "Customer/Order Notes",
+        "weight": 15
+      }
+    ]
+  },
+  "Duplicate Charge": {
+    "required": [
+      {
+        "name": "Payment Transactions",
+        "weight": 35
+      },
+      {
+        "name": "Order Financial Status",
+        "weight": 20
+      },
+      {
+        "name": "Transaction IDs",
+        "weight": 25
+      },
+      {
+        "name": "Refund Records",
+        "weight": 20
+      }
+    ]
+  },
+  "Item Damaged": {
+    "required": [
+      {
+        "name": "Fulfillment Record",
+        "weight": 20
+      },
+      {
+        "name": "Tracking Information",
+        "weight": 20
+      },
+      {
+        "name": "Shipment Status",
+        "weight": 20
+      },
+      {
+        "name": "Return Information",
+        "weight": 25
+      },
+      {
+        "name": "Order Line Items",
+        "weight": 15
+      }
+    ]
+  },
+  "Wrong Item Received": {
+    "required": [
+      {
+        "name": "Order Line Items",
+        "weight": 30
+      },
+      {
+        "name": "Product Details",
+        "weight": 25
+      },
+      {
+        "name": "Fulfillment Record",
+        "weight": 20
+      },
+      {
+        "name": "Tracking Information",
+        "weight": 10
+      },
+      {
+        "name": "Return Information",
+        "weight": 15
+      }
+    ]
+  },
+  "Missing Item": {
+    "required": [
+      {
+        "name": "Order Line Items",
+        "weight": 30
+      },
+      {
+        "name": "Fulfillment Record",
+        "weight": 25
+      },
+      {
+        "name": "Fulfillment Line Items",
+        "weight": 25
+      },
+      {
+        "name": "Product Details",
+        "weight": 10
+      },
+      {
+        "name": "Return Information",
+        "weight": 10
+      }
+    ]
+  }
+}
